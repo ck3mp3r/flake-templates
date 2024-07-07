@@ -1,0 +1,16 @@
+---
+name: flake-tempates
+
+path: .
+
+windows:
+  - name: code
+    flex_direction: column
+    panes:
+      - commands:
+        - $EDITOR
+
+  - name: misc
+    panes:
+      - flex: 1
+      - flex: 1

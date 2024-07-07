@@ -1,0 +1,11 @@
+# https://numtide.github.io/devshell
+name = "basic devshell"
+
+packages = [
+]
+
+[[commands]]
+name = "format"
+command = "nix fmt"
+
+category = "nix"
