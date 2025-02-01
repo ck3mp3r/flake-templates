@@ -8,9 +8,14 @@ windows:
     flex_direction: column
     panes:
       - commands:
-        - $EDITOR
+          - command: $EDITOR
+        flex: 9
+        zoom: true
+        focus: true
+      - flex: 1
 
   - name: misc
     panes:
       - flex: 1
+        focus: true
       - flex: 1
